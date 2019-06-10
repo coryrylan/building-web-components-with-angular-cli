@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-wc-project';
+  ngTitle = 'open angular component';
+  webTitle = 'open web component';
+  ngVisible = false;
+  webVisible = false;
 }
