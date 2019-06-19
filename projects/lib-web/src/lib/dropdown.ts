@@ -36,4 +36,10 @@ class XDropdown extends LitElement {
   }
 }
 
-customElements.define('x-dropdown', XDropdown);
+export function registerDropdown() {
+  try {
+    customElements.define('x-dropdown', XDropdown);
+  } catch {
+    console.warn('x-dropdown already registered');
+  }
+}

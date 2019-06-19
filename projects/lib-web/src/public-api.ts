@@ -3,5 +3,4 @@
  */
 
 export * from './lib/dropdown';
-
-console.log('123');
+export * from './lib/modal';

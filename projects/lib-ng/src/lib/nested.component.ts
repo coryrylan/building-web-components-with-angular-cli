@@ -1,5 +1,6 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
-import './../../../lib-web/src/lib/dropdown';
+import { Component } from '@angular/core';
+import { registerDropdown } from 'lib-web';
+registerDropdown();
 
 @Component({
   selector: 'ngx-nested',

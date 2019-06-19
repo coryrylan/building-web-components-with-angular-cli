@@ -4,8 +4,9 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { LibNgModule } from 'projects/lib-ng/src/public-api';
-import 'projects/lib-web/src/lib/dropdown';
+import { LibNgModule } from 'lib-ng';
+import { registerDropdown } from 'lib-web';
+registerDropdown();
 
 @NgModule({
   declarations: [
